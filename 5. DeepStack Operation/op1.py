@@ -108,7 +108,9 @@ if __name__ == '__main__':
             cv2.putText(frame, f"{label} {confidence}", (x_min, y_min - 10),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.45, color, 2)
             cv2.rectangle(frame, (x_min, y_min), (x_max, y_max), color, 2)
-
+             
+            # did this part twice to improve the user experience, if you have a
+            # a good machine, you can cut this out.
             converter.say(label)
             converter.runAndWait()
 
