@@ -8,6 +8,8 @@ Sign Language to Speech in 5 Steps:
 4. Trained Model
 5. DeepStack Operation
 
+
+
 1. Data Collection
 Python script path - '1. Data Collection/Image Code/images.py'
 
@@ -16,6 +18,8 @@ Run the python script to collect as many images as you can containing the sign l
 Organize your dataset by creating a root folder and creating a train and test folder inside it. You can replicate the folder organization used in this project. Running this python script will create several subfolders in the train and test folders depending on the number of labels you intend collecting.
 
 Empty the datasets in the train subfolders into the root train folder and delete the empty subfolders. Repeat the same step for the test images.
+
+
 
 2. Data Annotation
 
@@ -27,6 +31,9 @@ Click on the 'Open Dir' to cd into your data folders. Click on 'PascalVOC' to ch
 
 NB: If yours is not a windows system, go to https://github.com/tzutalin/labelImg and check out the installation process peculiar to your system.
 
+  
+  
+  
 3. Model Training
 Jupyter notebook path - '3. Model Training/deepstack.ipynb'
 
@@ -34,10 +41,16 @@ Unless you have a gpu powered system, it's better you make use of google colab. 
 
 At the end of the training, on the deepstack folder that would have appeared the moment you start running the commands in the notebook, go through 'train-runs/my-dataset/exp/weights'. Download the best weight file. Hey, for no reason should you download any model file before the preset number of epochs elapses. Your deepstack model won't predict anything if you go against this warning (I tried it as well).
 
+  
+  
+  
 4. Trained Model
 
 You can rename the downloaded file e.g SignLanguage.pt (you can as well leave it as best.pt). Create a folder for the model (optional) and move the trained model into it.
 
+  
+  
+  
 5. DeepStack Operation
 Python script path - '5. DeepStack Operation/op1.py'
 
