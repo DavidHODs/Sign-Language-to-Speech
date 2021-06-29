@@ -10,7 +10,8 @@ Sign Language to Speech in 5 Steps:
 
 
 
-1. Data Collection
+I. Data Collection
+
 Python script path - '1. Data Collection/Image Code/images.py'
 
 Run the python script to collect as many images as you can containing the sign language you want to detect (Yeah, pose for your webcam). For this experiment, 50 images for the training set and 5 images for the test set were collected per label (sign language). Earlier experiments with fewer images produced less than desirable result, so collect as much as possible. Alternatively, you can source images from the web.
@@ -21,7 +22,7 @@ Empty the datasets in the train subfolders into the root train folder and delete
 
 
 
-2. Data Annotation
+II. Data Annotation
 
 This project uses LabelImg for graphical image annotion. Alternatively, you can use Labelme.
 
@@ -34,7 +35,8 @@ NB: If yours is not a windows system, go to https://github.com/tzutalin/labelImg
   
   
   
-3. Model Training
+III. Model Training
+  
 Jupyter notebook path - '3. Model Training/deepstack.ipynb'
 
 Unless you have a gpu powered system, it's better you make use of google colab. Upload the folder containing the datasets to your google drive (you have the option of zipping). Mount your google drive on google colab. Run the commands in the notebook. You can also adjust the parameters as stated in the notebook.
@@ -44,14 +46,15 @@ At the end of the training, on the deepstack folder that would have appeared the
   
   
   
-4. Trained Model
+IV. Trained Model
 
 You can rename the downloaded file e.g SignLanguage.pt (you can as well leave it as best.pt). Create a folder for the model (optional) and move the trained model into it.
 
   
   
   
-5. DeepStack Operation
+V. DeepStack Operation
+  
 Python script path - '5. DeepStack Operation/op1.py'
 
 Visit https://docs.deepstack.cc/index.html#installation-guide-for-cpu-version for instructions on how to set up deepstack as peculiar to the type of system you have.
