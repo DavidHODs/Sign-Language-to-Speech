@@ -74,5 +74,5 @@ So yeah, this project went from crawling to walking...maybe you'll make it fly, 
 Hmm, I used ScreenRec to record the result of this project and it added more lag to this project. So yeah, from crawling to walking and back to CRAWLING....
 
 
-Final NB: I included my dataset in this project, I'm still debating it's relevance: low quality pics, advisable to get better ones for your project but atleast you'll have a better idea of what the dataset is all about.
+Final NB: I included my dataset (the test part) in this project, I'm still debating it's relevance: low quality pics, advisable to get better ones for your project but atleast you'll have a better idea of what the dataset is all about.
 
